@@ -6,7 +6,12 @@
 
   <groupId>com.zhengyang</groupId>
   <artifactId>yangservices</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>customer</module>
+      <module>customer</module>
+  </modules>
 
   <name>yangservices</name>
   <!-- FIXME change it to the project's website -->
@@ -58,3 +63,8 @@
     </pluginManagement>
   </build>
 </project>
+
+        <!--A Project Object Model or POM is the fundamental-->
+        <!--        unit of work in Maven. It is an XML file that contains-->
+        <!--        information about the project and configuration details-->
+        <!--        used by Maven to build the project.-->
